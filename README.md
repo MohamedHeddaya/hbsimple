@@ -82,6 +82,6 @@ You can Download It Using Git Clone in the command-line:
 
 Or You Can Simply Download The Zip File:
 
-  [The_Zip_File_For_Hbsimple_JS_Library](https://github.com/MohamedHeddaya/hbsimple.zip)
+  [The_Zip_File_For_Hbsimple_JS_Library](/hbsimple.zip)
 
 </span>
