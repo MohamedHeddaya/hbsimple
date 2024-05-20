@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="hbsimple.svg" alt="hbsimple_logo">
+  <img src="hbsimple.png" alt="hbsimple_logo">
 </p>
 <br>
 
