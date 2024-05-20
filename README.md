@@ -39,7 +39,7 @@ This Library Targeting Simplified UI/UX Development With A Neat System And Frien
 
 ## Getting Started
 
-<span style="font-family: 'Times New Roman', Times, serif; font-size: 24px; color: red;">
+<span style="font-family: mono-space; font-size: 24px;">
 
 First, You Need To Know Some Basic Variables Of The System:
 
@@ -68,5 +68,22 @@ recommended to not use any additional libraries beside the hbsimple.js environme
       - `hbbdl: instead of "borderLeft" key, It For Specifing The Left Border Thickness Of The Element`.
       - `hbbdb: instead of "borderBottom" key, It For Specifing The Bottom Border Thickness Of The Element`.
       - `hbbdc: instead of "borderColor" key, It For Specifing The Borders Color Of The Element`.
+- hbsmplr(\<name>,\<render>) function: This For Later On Style Render For The Element After It Created.
+  - \<name> Parameter For The Name Of The Element.
+  - \<render> Parameter For The Styling Render Object For The Element.
+
+</span>
+
+## Installation
+
+<span style="font-family: mono-space; font-size: 24px;">
+
+You can Download It Using Git Clone in the command-line:
+
+  `git clone https://github.com/MohamedHeddaya/hbsimple.git`
+
+Or You Can Simply Download The Zip File:
+
+  [The_Zip_File_For_Hbsimple_JS_Library](https://github.com/MohamedHeddaya/hbsimple.zip)
 
 </span>
