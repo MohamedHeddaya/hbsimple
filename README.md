@@ -35,6 +35,10 @@
 
 This Library Targeting Simplified UI/UX Development With A Neat System And Friendly Functions and No Prerequirities Or Any Additional Libraries Needed For Library To Work!
 
+### Built With
+
+Just Raw JS code using The "JS DOM" AKA "Javascript Document Object Model".
+
 ## Getting Started
 
 <span style="font-family: mono-space; font-size: 24px;">
@@ -82,6 +86,83 @@ You can Download It Using Git Clone in the command-line:
 
 Or You Can Simply Download The Zip File:
 
-  [The_Zip_File_For_Hbsimple_JS_Library](/hbsimple.zip)
+  [The_Zip_File_For_Hbsimple_JS_Library](hbsimple.zip)
 
 </span>
+
+## Usage
+
+That's Example For How To Create Your First Element In hbsimple:
+
+```js
+// Note That The Functions Not Have The Name hbsimple But Instead Abbreviated To hbsmpl With Omitting The "i" and The "e".
+
+hbsmpl("hello",{hbx:0,hby:0,hbpos:"fixed",hbp:"hbroot",hbw:100,hbh:100},{hbbc:"red",borderRadius:"10px"});
+```
+
+<p align="center">
+  <img src="example-1.png" alt="output-of-example-1">
+</p>
+
+And If Want To Re-Style It Again Later After We Created It, We Can Do This:
+
+```js
+hbsmplr("hello",{borderRadius:"100%",hbbc:"blue"});
+
+//This Will Make The Element From Red Curvy Square To Blue Full Circle.
+```
+
+<p align="center">
+  <img src="example-2.png" alt="output-of-example-2">
+</p>
+
+And To Align It Use Function hbsmplal(\<name>,\<parent>,\<align>):
+
+```js
+
+hbsmplal("hello","hbroot","ctp");
+
+// "ctp" standfor "Center Top" to center the element in the top forehead of the parent element,
+// and you can also choose from other aligns, like:
+
+// "tplt" for "Top Left" align.
+
+// "tprt" for "Top Right" align.
+
+// "bmlt" for "Bottom Left" align.
+
+// "bmrt" for "Bottom Right" align.
+
+// "cbm" for "Center Bottom" align.
+
+// "crt" for "Center Right" align.
+
+// "clt" for "Center Left" align.
+
+// "lt" for "Left" align.
+
+// "tp" for "Top" align.
+
+// "bm" for "Bottom" align.
+
+// "rt" for "Right" align.
+
+// "cxy" for Centering In Both X-axis And Y-axis Of The Element.
+
+```
+
+<p align="center">
+  <img src="example-3.png" alt="output-of-example-3">
+</p>
+
+And This With "cxy" align:
+
+```js
+
+hbsmplal("hello","hbroot","cxy");
+
+```
+
+<p align="center">
+  <img src="example-4.png" alt="output-of-example-4">
+</p>
