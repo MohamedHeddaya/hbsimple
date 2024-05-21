@@ -45,12 +45,12 @@ Just Raw JS code using The "JS DOM" AKA "Javascript Document Object Model".
 
 First, You Need To Know Some Basic Variables Of The System:
 
-- hbsmpls object: This Object Is Holding The UI Elements Whole Data.
+- `hbsmpls` object: This Object Is Holding The UI Elements Whole Data.
 
-- hbsmpl(\<name>,\<base>,\<render>) function: This Function Is The Responsible For Making New Elements In The hbsimple.js environment! (note: the environment of hbsimple.js is independent for the most ui actions taken from js side,
+- `hbsmpl(<name>,<base>,<render>)` function: This Function Is The Responsible For Making New Elements In The hbsimple.js environment! (note: the environment of hbsimple.js is independent for the most ui actions taken from js side,
 recommended to not use any additional libraries beside the hbsimple.js environment! ).
-  - \<name> Parameter For The Name Of The Element.
-  - \<base> Parameter For The Base Render Like Coordinates, Position Type And Non Precentile Scale, and the list below is the basic keys for the base object:
+  - `<name>` Parameter For The Name Of The Element.
+  - `<base>` Parameter For The Base Render Like Coordinates, Position Type And Non Precentile Scale, and the list below is the basic keys for the base object:
       - `hbpos: For Position Type Setting`.
       - `hbx: For X-axis Coordinate`.
       - `hby: For Y-axis Coordinate`.
@@ -60,7 +60,7 @@ recommended to not use any additional libraries beside the hbsimple.js environme
       - `hblnbl: Its Boolean For Indicating The Element As Svg Element Or Not (default: false)`.
       - `hbtag: For Specifing The Tag Name Of The Element`.
       - `hbsrc: Its For The Source Informing Like Images URL`.
-  - \<render> Parameter For The Advanced Styling Render, you can basically just type the normal "JS DOM" style object keys names or choose the available shortcuts for some of the style object keys names, and some of the shortcuts is:
+  - `<render>` Parameter For The Advanced Styling Render, you can basically just type the normal "JS DOM" style object keys names or choose the available shortcuts for some of the style object keys names, and some of the shortcuts is:
       - `hbbc: instead of "backgroundColor" key, It For Specifing The Background Color Of The Element`.
       - `hbwp: Its hbsimple.js Exclusive, It used for Width Scale in Precentage out of the parent element`.
       - `hbhp: Its hbsimple.js Exclusive, It used for Height Scale in Precentage out of the parent element`.
@@ -70,9 +70,9 @@ recommended to not use any additional libraries beside the hbsimple.js environme
       - `hbbdl: instead of "borderLeft" key, It For Specifing The Left Border Thickness Of The Element`.
       - `hbbdb: instead of "borderBottom" key, It For Specifing The Bottom Border Thickness Of The Element`.
       - `hbbdc: instead of "borderColor" key, It For Specifing The Borders Color Of The Element`.
-- hbsmplr(\<name>,\<render>) function: This For Later On Style Render For The Element After It Created.
-  - \<name> Parameter For The Name Of The Element.
-  - \<render> Parameter For The Styling Render Object For The Element.
+- `hbsmplr(<name>,<render>)` function: This For Later On Style Render For The Element After It Created.
+  - `<name>` Parameter For The Name Of The Element.
+  - `<render>` Parameter For The Styling Render Object For The Element.
 
 </span>
 
@@ -116,7 +116,7 @@ hbsmplr("hello",{borderRadius:"100%",hbbc:"blue"});
   <img src="example-2.png" alt="output-of-example-2">
 </p>
 
-And To Align It Use Function hbsmplal(\<name>,\<parent>,\<align>):
+And To Align It Use Function `hbsmplal(<name>,<parent>,<align>)`:
 
 ```js
 
@@ -155,7 +155,7 @@ hbsmplal("hello","hbroot","ctp");
   <img src="example-3.png" alt="output-of-example-3">
 </p>
 
-And This With "cxy" align:
+And This With `"cxy"` align:
 
 ```js
 
