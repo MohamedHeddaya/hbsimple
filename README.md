@@ -166,3 +166,7 @@ hbsmplal("hello","hbroot","cxy");
 <p align="center">
   <img src="example-4.png" alt="output-of-example-4">
 </p>
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information. [Link For LICENSE](LICENSE)
